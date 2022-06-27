@@ -1,14 +1,25 @@
 import Pokeball from '../../assets/pokeball.png'
+import { NavBarContainer, NavBarIcon, NavBarImg, NavBarText } from './style'
 
 export const Navbar = () => {
     return (
-        <div>
-            <div>
-                <a>
-                    <img src={Pokeball} />
-                    <span>About the project</span>
-                </a>
-            </div>
-        </div>
+        <NavBarContainer>
+            <NavBarIcon>      
+                    <NavBarImg src={Pokeball} />
+                    <NavBarText>About the project</NavBarText>
+            </NavBarIcon>
+            <NavBarIcon>      
+                    <NavBarImg src={Pokeball} />
+                    <NavBarText>Pokemons Captured</NavBarText>
+            </NavBarIcon>
+            <NavBarIcon>      
+                    <NavBarImg src={Pokeball} />
+                    <NavBarText>Games Finished</NavBarText>
+            </NavBarIcon>
+            <NavBarIcon>      
+                    <NavBarImg src={Pokeball} />
+                    <NavBarText>Berries Acquired</NavBarText>
+            </NavBarIcon>
+        </NavBarContainer>
     )
 }

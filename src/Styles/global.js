@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { createGlobalStyle } from "styled-components";
-import BackgroundHome from '../assets/Home/BackgroundHome.png'
+import BackgroundHome from '../assets/Home/BackgroundHomeDesk.png'
 
 export const GlobalStyle = createGlobalStyle`
 :root {
@@ -14,8 +14,8 @@ export const GlobalStyle = createGlobalStyle`
 //Home styles
 export const HomeContainer = styled.div`
 background-image: url(${BackgroundHome});
-height: 100vh;
-width: 1440px;
+height: 905px;
+width: 1730px;
 `
 
 export const LogoContainer = styled.div`
@@ -27,4 +27,9 @@ flex-direction: column;
 export const SubLogoContainer = styled.div`
 width: 540px;
 margin-left: 230px;
+`
+export const DisclaimerText = styled.p`
+position: absolute;
+bottom: 0;
+margin-left: 10%
 `

@@ -1,4 +1,4 @@
-import { LogoContainer, HomeContainer } from './Styles/global';
+import { LogoContainer, HomeContainer, SubLogoContainer } from './Styles/global';
 
 
 //Images
@@ -10,7 +10,9 @@ function App() {
     <HomeContainer>
       <LogoContainer>
         <img src={PokemonLogo} alt='PokemonLogo'></img>
-        <img src={ValentinJourney} alt='ValentinJourney'></img>
+        <SubLogoContainer>
+          <img src={ValentinJourney} alt='ValentinJourney'></img>
+        </SubLogoContainer>
       </LogoContainer>
     </HomeContainer>
   );

@@ -4,6 +4,7 @@ import { LogoContainer, HomeContainer, SubLogoContainer } from './Styles/global'
 //Images
 import ValentinJourney from './assets/Home/valentinjourney.png'
 import PokemonLogo from './assets/Home/pokemon-logo-3-1.png'
+import Ash from './assets/Home/Ash_JN.png'
 
 function App() {
   return (

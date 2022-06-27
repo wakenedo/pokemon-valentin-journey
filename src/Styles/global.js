@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { createGlobalStyle } from "styled-components";
-import  BackgroundHome from '../assets/Home/BackgroundHome.svg'
+import BackgroundHome from '../assets/Home/BackgroundHome.png'
 
 export const GlobalStyle = createGlobalStyle`
 :root {
@@ -19,11 +19,12 @@ width: 1440px;
 `
 
 export const LogoContainer = styled.div`
-width: 600px;
+width: 700px;
 padding: 20px;
 display: flex;
 flex-direction: column;
 `
 export const SubLogoContainer = styled.div`
-margin-left: 150px;
+width: 540px;
+margin-left: 230px;
 `

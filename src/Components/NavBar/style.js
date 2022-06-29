@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const NavBarContainer = styled.div`
 display: flex;
-background-color: #ffffff;
+background: #ffffff;
 border: 2px solid #FAC705;
 border-radius: 50px;
 width: fit-content; ;

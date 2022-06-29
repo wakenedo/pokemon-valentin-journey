@@ -13,11 +13,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin: 15px 26px 0 26px;
+padding: 2px;
 cursor: pointer;
 `
 
 export const NavBarImg = styled.img`
-width: 50px;
+width: 75px;
 `
 
 export const NavBarText = styled.p`

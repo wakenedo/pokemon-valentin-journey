@@ -5,6 +5,7 @@ display: flex;
 background-color: #ffffff;
 border: 2px solid #FAC705;
 border-radius: 50px;
+width: fit-content; ;
 `
 
 export const NavBarIcon = styled.a`

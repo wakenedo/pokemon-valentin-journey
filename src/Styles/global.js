@@ -31,5 +31,8 @@ margin-left: 230px;
 export const DisclaimerText = styled.p`
 position: absolute;
 bottom: 0;
-margin-left: 10%
+margin-left: 10%;
 `
+export const NavBarContainer = styled.div`
+`
+

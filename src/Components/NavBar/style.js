@@ -13,6 +13,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin: 15px 26px 0 26px;
+cursor: pointer;
 `
 
 export const NavBarImg = styled.img`

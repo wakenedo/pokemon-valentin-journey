@@ -17,6 +17,7 @@ padding: 1px;
 cursor: pointer;
 transform: scale(0.9) ;
 transition: all 1s smooth;
+text-decoration: none;
 
 
 &:hover {
@@ -31,4 +32,5 @@ width: 60px;
 
 export const NavBarText = styled.p`
 font-size: 14px
+
 `

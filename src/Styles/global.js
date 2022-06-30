@@ -36,7 +36,7 @@ margin-left: 10%;
 export const NavBarContainer = styled.div`
 position: absolute;
 bottom: 00;
-margin: 15% 15% 5% 22%;
+margin: 15% 15% 4% 23%;
 
 `
 

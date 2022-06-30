@@ -31,6 +31,5 @@ width: 60px;
 `
 
 export const NavBarText = styled.p`
-font-size: 14px
-
+font-size: 14px;
 `

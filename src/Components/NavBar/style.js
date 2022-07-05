@@ -1,9 +1,5 @@
 import styled from 'styled-components'
-import {NavLink as Link } from 'react-router-dom'
-
-export const Nav = styled.nav`
-
-`
+import {Link} from 'react-router-dom'
 
 export const NavBarContainer = styled.div`
 display: flex;

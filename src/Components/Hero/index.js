@@ -2,7 +2,7 @@ import ValentinJourney from '../../assets/Home/valentinjourney.png'
 import PokemonLogo from '../../assets/Home/pokemon-logo-3-1.png'
 
 //Styles
-import { LogoContainer, SubLogoContainer, DisclaimerText, NavBarContainer } from './heroElements'
+import { LogoContainer, SubLogoContainer} from './heroElements'
 
 const Hero = () => {
     return (

@@ -15,5 +15,15 @@ bottom: 0;
 margin: 15% 15% 4% 23%;
 `
 
-
+//Logo & SubLogo for pages
+export const GlobalLogoContainer = styled.div`
+width: 700px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+`
+export const GlobalSubLogoContainer = styled.div`
+width: 540px;
+margin-left: 230px;
+`
 

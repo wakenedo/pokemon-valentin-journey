@@ -21,7 +21,6 @@ margin: 15% 15% 4% 23%;
 
 //Logo & SubLogo for pages
 export const GlobalLogoContainer = styled.div`
-width: 400px;
 margin-left: 230px;
 padding: 20px;
 display: flex;
@@ -30,10 +29,14 @@ flex-direction: column;
 export const GlobalSubLogoContainer = styled.div`
 margin-left: 80px;
 img{
-    width: 360px;
+    width: 260px;
 }
 `
 //HomeLink for Logo and SubLogo for pages
 export const HomeLink = styled(Link)`
-cursor: pointer
+cursor: pointer;
+width: fit-content;
+img {
+    width: 250px;
+}
 `

@@ -8,14 +8,14 @@ import { HomeLink, GlobalLogoContainer, GlobalSubLogoContainer } from '../../Sty
 function About() {
     return (
         <>
-            <HomeLink to='/' >
-                <GlobalLogoContainer>
+            <GlobalLogoContainer>
+                <HomeLink to='/' >
                     <img src={PokemonLogo} alt='PokemonLogo' />
-                    <GlobalSubLogoContainer>
-                        <img src={ValentinJourney} alt='ValentinJourney' />
-                    </GlobalSubLogoContainer>
-                </GlobalLogoContainer>
-            </HomeLink>
+                </HomeLink>
+                <GlobalSubLogoContainer>
+                    <img src={ValentinJourney} alt='ValentinJourney' />
+                </GlobalSubLogoContainer>
+            </GlobalLogoContainer>
             <h1>About</h1>
         </>
 

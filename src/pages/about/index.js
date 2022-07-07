@@ -1,15 +1,23 @@
 import ValentinJourney from '../../assets/Home/valentinjourney.png'
 import PokemonLogo from '../../assets/Home/pokemon-logo-3-1.png'
-import { LogoContainer, SubLogoContainer } from '../../Components/Hero/heroElements'
+
+//Global Styles
+import { HomeLink, GlobalLogoContainer, GlobalSubLogoContainer } from '../../Styles/GlobalStyle'
+
 
 function About() {
     return (
-        <LogoContainer>
-            <img src={PokemonLogo} alt='PokemonLogo' />
-            <SubLogoContainer>
-                <img src={ValentinJourney} alt='ValentinJourney' />
-            </SubLogoContainer>
-        </LogoContainer>
+        <>
+            <HomeLink to='/' >
+                <GlobalLogoContainer>
+                    <img src={PokemonLogo} alt='PokemonLogo' />
+                    <GlobalSubLogoContainer>
+                        <img src={ValentinJourney} alt='ValentinJourney' />
+                    </GlobalSubLogoContainer>
+                </GlobalLogoContainer>
+            </HomeLink>
+            <h1>About</h1>
+        </>
 
     )
 }

@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import { createGlobalStyle } from "styled-components";
 import BackgroundHome from '../assets/Home/BackgroundHomeDesk.png'
+import {Link} from 'react-router-dom'
+
 
 export const GlobalStyle = createGlobalStyle`
 :root {
@@ -9,6 +11,8 @@ export const GlobalStyle = createGlobalStyle`
     background-image: url(${BackgroundHome});
 };
 `
+
+//NavBar
 export const NavBarContainer = styled.div`
 position: absolute;
 bottom: 0;
@@ -17,13 +21,19 @@ margin: 15% 15% 4% 23%;
 
 //Logo & SubLogo for pages
 export const GlobalLogoContainer = styled.div`
-width: 700px;
+width: 400px;
+margin-left: 230px;
 padding: 20px;
 display: flex;
 flex-direction: column;
 `
 export const GlobalSubLogoContainer = styled.div`
-width: 540px;
-margin-left: 230px;
+margin-left: 80px;
+img{
+    width: 360px;
+}
 `
-
+//HomeLink for Logo and SubLogo for pages
+export const HomeLink = styled(Link)`
+cursor: pointer
+`
